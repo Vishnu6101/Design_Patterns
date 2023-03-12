@@ -1,0 +1,14 @@
+https://stackoverflow.com/questions/67375098/c-undefined-reference-to-pthread-create-when-using-thread-class
+
+
+g++ -pthread -o singletonMultiThread.o loggerMultithread.cpp userMultithread.cpp 
+
+./singletonMultiThread.o
+
+
+
+
+
+g++ -o singleton.o logger.cpp user.cpp 
+
+./singleton.o 

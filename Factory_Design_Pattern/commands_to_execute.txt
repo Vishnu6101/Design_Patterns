@@ -1,0 +1,11 @@
+Compile the cpp files
+g++ -c vehicle_factory.cpp car.cpp bike.cpp truck.cpp 
+
+Create a library
+ar rU vehicle_lib_factory.a vehicle_factory.o car.o bike.o truck.o 
+
+link the main file with the library
+g++ -o smartClient smart_client.cpp vehicle_lib_factory.a 
+
+run the main file
+./smartClient
