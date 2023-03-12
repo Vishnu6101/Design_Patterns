@@ -1,0 +1,4 @@
+g++ -o BuilderDesign.o client.cpp dellDesktop_concreteBuilder.cpp hpDesktop_concreteBuilder.cpp desktop.cpp 
+
+
+./BuilderDesign.o 
